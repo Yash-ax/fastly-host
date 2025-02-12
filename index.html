@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H4CK3D</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-family: "Courier New", monospace;
+            text-align: center;
+            padding: 50px;
+        }
+        .terminal {
+            border: 2px solid #00ff00;
+            padding: 20px;
+            display: inline-block;
+            text-align: left;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h2>> ACCESS GRANTED</h2>
+        <p>> SYSTEM BREACHED...</p>
+        <p>> UPLOADING PAYLOAD...</p>
+        <p>> STATUS: <span class="blink">█</span></p>
+    </div>
+</body>
+</html>
